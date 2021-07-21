@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 40px auto;
+            width: 1000px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(240, 239, 239);
+            color: white;
+        }
+
+        .footer {
+            width: 100%;
+            margin: 10px;
+            display: block;
+        }
+
+        .inner-footer {
+            background-color: rgb(43, 77, 122);
+            height: 300px;
+        }
+
+        .menu1 {
+            float: left;
+            width: 33.3%;
+            margin: auto;
+        }
+
+        .inner-menu1 {
+            padding-top: 70px;
+            padding-left: 100px;
+            height: 200px;
+        }
+
+        .menu2 {
+            float: left;
+            width: 33.3%;
+            margin: auto;
+        }
+
+        .inner-menu2 {
+            padding-top: 70px;
+            padding-left: 50px;
+            height: 200px;
+        }
+
+        .menu3 {
+            float: right;
+            width: 33.4%;
+            margin: auto;
+        }
+
+        .inner-menu3 {
+            padding-top: 75px;
+            padding-left: 10px;
+            height: 200px;
+        }
+
+        .fbottom {
+            margin: 20px 50px;
+            float: left;
+            border-top: solid;
+            width: 90%;
+        }
+
+        .inner-fbottom {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        p {
+            margin-top: -5px;
+        }
+
+
+        a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+        }
+
+
+        img {
+            transition: all .3s ease;
+            margin-right: 30px;
+        }
+
+        a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        a:hover img {
+            opacity: 0;
+        }
+
+        a.fb:hover {
+            background: url(img/fb.png) no-repeat;
+        }
+
+        a.inst:hover {
+            background: url(img/insta.png) no-repeat;
+        }
+
+        a.ytb:hover {
+            background: url(img/youtube.png) no-repeat;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="footer">
+        <div class="inner-footer">
+            <div class="menu1">
+                <div class="inner-menu1">
+                    <p><a href="#">Home</a></p>
+                    <p><a href="#">About</a></p>
+                    <p><a href="#">Gallery</a></p>
+                    <p><a href="#">News</a></p>
+                </div>
+            </div>
+            <div class="menu2">
+                <div class="inner-menu2">
+                    <p><a href="#">Blog</a></p>
+                    <p><a href="#">FAQ</a></p>
+                    <p><a href="#">Contacts</a></p>
+                    <p><a href="#">Privacy & cookies</a></p>
+                </div>
+            </div>
+            <div class="menu3">
+                <div class="inner-menu3">
+                    <a href="#" class="fb"><img src="img/fb_gray.png" alt="Facebook"></a>
+                    <a href="#" class="inst"><img src="img/insta_gray.png" alt="Instagram"></a>
+                    <a href="#" class="ytb"><img src="img/youtube_gray.png" alt="Youtube"></a>
+                </div>
+            </div>
+            <div class="fbottom">
+                <div class="inner-fbottom">
+                    <p>Copyright &copy; Company 2018-2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

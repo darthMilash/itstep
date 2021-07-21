@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1500px;
+            margin: auto;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+        }
+
+        .header {
+            margin-top: 10px;
+        }
+
+        .inner-header {
+            background-color: rgb(139, 16, 16);
+            padding: 15px 100px;
+        }
+
+        .menu {
+            margin-top: 10px;
+        }
+
+        .inner-menu {
+            padding: 0.3px 100px;
+            background-color: rgb(100, 17, 17);
+        }
+
+        .sidebar {
+            float: left;
+            margin-bottom: 10px;
+            width: 25%;
+        }
+
+        .inner-sidebar {
+            height: 300px;
+            padding-right: 10px;
+        }
+
+        .main {
+            margin-bottom: 10px;
+            float: left;
+            width: 60%;
+        }
+
+        .inner-main {
+            background-color: rgb(228, 98, 98);
+            height: 450px;
+        }
+
+        .inner-main h1 {
+            padding: 35px 100px 0px;
+        }
+
+        .rsidebar {
+            padding-left: 10px;
+            float: left;
+            margin-bottom: 10px;
+            width: 15%;
+        }
+
+        .inner-rsidebar {
+            background-color: rgb(228, 98, 98);
+            height: 310px;
+        }
+
+        .inner-rsidebar h1 {
+            padding: 35px 100px;
+        }
+
+        .aside1 {
+            width: 100%;
+        }
+
+        .inner-aside1 {
+            background-color: rgb(228, 98, 98);
+            height: 100px;
+        }
+
+        .inner-aside1 h1 {
+            padding: 35px 100px;
+        }
+
+        .aside2 {
+            width: 100%;
+        }
+
+        .inner-aside2 {
+            background-color: rgb(228, 98, 98);
+            height: 200px;
+        }
+
+        .inner-aside2 h1 {
+            padding: 35px 100px;
+        }
+
+        .section1 {
+            margin-left: 100px;
+            width: 80%;
+        }
+
+        .inner-section1 {
+            background-color: rgb(236, 162, 162);
+            height: 150px;
+        }
+
+        .section2 {
+            margin-left: 100px;
+            width: 80%;
+        }
+
+        .inner-section2 {
+            background-color: rgb(236, 162, 162);
+            height: 150px;
+        }
+
+        .row:after {
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+
+        * html .row {
+            height: 1%;
+        }
+
+        .row {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="inner-header">
+            <h1>header</h1>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="inner-menu">
+            <h1>menu</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="sidebar">
+            <div class="inner-sidebar">
+                <div class="row">
+                    <div class="aside1">
+                        <div class="inner-aside1">
+                            <h1>aside 1</h1>
+                        </div>
+                    </div>
+                    <div class="aside2">
+                        <div class="inner-aside2">
+                            <h1>aside 2</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="inner-main">
+                <h1>main content</h1>
+                <div class="row">
+                    <div class="section1">
+                        <div class="inner-section1">
+                            <h1>section 1</h1>
+                        </div>
+                    </div>
+                    <div class="section2">
+                        <div class="inner-section2">
+                            <h1>section 2</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rsidebar">
+            <div class="inner-rsidebar">
+                <h1>a<br>s<br>i<br>d<br>e<br> <br>3</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="inner-menu">
+            <h1>footer</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
